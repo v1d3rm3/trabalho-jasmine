@@ -9,9 +9,9 @@ describe("Testes para a função soma", () => {
    * Como ocorre com o `describe`, os `specs` que são definidos
    * através do função `it` são um agrupamento de `expectations`.
    */
-  it("verifica se soma valores positivos corretamente", () => {
-    expect(isLeapYear(2022)).toBe(true);
+  it("verifica se calcula anos bissextos corretamente", () => {
+    expect(isLeapYear(2022)).toBe(false);
+    expect(isLeapYear(2024)).toBe(true);
   });
 
-  
 });
