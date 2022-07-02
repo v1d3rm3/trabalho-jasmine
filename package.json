@@ -1,0 +1,22 @@
+{
+  "name": "trabalho-jasmine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v1d3rm3/trabalho-jasmine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/v1d3rm3/trabalho-jasmine/issues"
+  },
+  "homepage": "https://github.com/v1d3rm3/trabalho-jasmine#readme",
+  "devDependencies": {
+    "jasmine": "^4.2.1"
+  }
+}
